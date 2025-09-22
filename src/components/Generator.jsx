@@ -52,7 +52,7 @@ export default function Generator(props) {
     }
 
     setMuscles([...muscles, muscleGroup]);
-    if (muscles.length === 2) {
+    if (muscles.length === 1) {
       setShowModal(false);
     }
   }
